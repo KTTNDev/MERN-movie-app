@@ -7,13 +7,13 @@ const cors = require('cors')
 const db = require('./db')
 
 // ** หลังจาก route ตัวแปรใน movie-router แล้ว มาประกาศตัวแปร movie-router อีก
-const movieRouter = require('./routes/movie-router')
+const movieRouter = require('./router/movie-router')
 
 
 // ประกาศตุัวแปร app 
 const app = express()
     // ประกาศ Port 
-const apiPort = 3000
+const apiPort = 8000
 
 // ใช้ 3 ตัวที่ import มา 
 app.use(bodyParser.urlencoded({ extended: true }))
