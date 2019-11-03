@@ -7,7 +7,7 @@ const cors = require('cors')
 const db = require('./db')
 
 // ** หลังจาก route ตัวแปรใน movie-router แล้ว มาประกาศตัวแปร movie-router อีก
-const movieRouter = require('./router/movie-router')
+const movieRouter = require('./routes/movie-router')
 
 
 // ประกาศตุัวแปร app 
